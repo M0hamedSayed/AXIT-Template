@@ -1,0 +1,113 @@
+/* @screen width 1400 px */
+@media only screen and (max-width: 1400px) {
+    .social .right_nav li {
+        margin: 0;
+    }
+}
+
+/* @screen width 1220 px */
+@media only screen and (max-width: 1220px) {
+    .page_layout {
+        text-align: center;
+    }
+    .img_container-left, .social_container>div {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .shape, .download, .call_btn, .img_container-right {
+        margin: calc(var(--padding)*4) auto;
+    }
+    .social_container>div {
+        padding-bottom: calc(var(--padding)*2);
+    }
+    .tabs-container>div:last-child {
+        display: none;
+    }
+    .feedback .thirty>p::after {
+        left: 45%;
+    }
+    .preloader h2{
+        font-size: 2em;
+    }
+    
+}
+
+/* @screen width 900 px */
+@media only screen and (max-width: 900px) {
+    .sub_right>.page_layout>div:last-of-type {
+        width: 100%;
+    }
+    .sub_right .icon {
+        margin: auto !important;
+    }
+    .thirty {
+        flex: 0 0 80%;
+        margin-bottom: calc(var(--padding)*4);
+    }
+    .feedback .thirty>p::after {
+        left: 25%;
+    }
+    .haif_wdth {
+        flex: 0 0 100%;
+    }
+    .tab, .tab_btn {
+        width: 80%;
+        margin: auto;
+    }
+    footer .right_nav>li {
+        margin: 0;
+    }
+    .burger__label {
+        display: block;
+    }
+    header .right_nav>li:not(:last-child) {
+        border-bottom: 1px solid var(--color-text);
+    }
+    header .right_nav>li {
+        padding: var(--padding) 0;
+    }
+    .tabb{
+        padding-top: calc(var(--padding)*2);
+    }
+}
+
+/* @screen width 500 px */
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+    .tabb, .tab1>p, .sub_right {
+        width: 90%;
+        margin: auto;
+    }
+    .standard img, .sub_list img {
+        width: 90%;
+    }
+    .right_nav {
+        font-size: 0.8em;
+    }
+    .social_container {
+        width: 100%;
+        left: 0;
+    }
+    .social_container i {
+        font-size: 1.5em;
+    }
+    .feedback .thirty>p::after {
+        left: 22%;
+    }
+    .preloader h2{
+        font-size: 1em;
+    }
+}
+
+/* @screen width 326 px */
+@media only screen and (max-width: 326px) {
+    .feedback .thirty>p::after {
+        left: 42%;
+    }
+    .call_btn{
+        padding: var(--padding);
+    }
+}
