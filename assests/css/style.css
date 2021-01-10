@@ -341,7 +341,7 @@ h4 {
     height: 100%;
     z-index: 200;
     height: 70px;
-    background-color: var(--color-black);
+    background-color: var(--color-black-alpha);
     transition: var(--transition-scroll);
 }
 

@@ -26,11 +26,7 @@ $(window).on('load', function () {
         $(this).addClass('active');
     });
     /************************************************************************************************/
-    /*refresh Aos animation only in wheel event*/
-    $(window).on('wheel', function () {
-        /*first reset and refresh AOS animation*/
-        AOS.refresh();
-    })
+
     /*catch scroll*/
     $(window).on("scroll", function () {
 
